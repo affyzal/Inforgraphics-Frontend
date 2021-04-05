@@ -1,12 +1,15 @@
 import React from 'react'
 import './Title.css'
+import 'fontsource-roboto';
+import { Button, Typography } from '@material-ui/core';
+
 
 function Title() {
     return (
         <div>
 
-            <div className="Title">
-                <h1>A Peek Into the Presidential Debates</h1>
+            <div>
+                <Typography>A Peek Into the Presidential Debates</Typography>
             </div>
 
             <div className="Title-Subtitle">
