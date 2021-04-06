@@ -12,45 +12,26 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import green from "@material-ui/core/colors/green";
 import 'fontsource-roboto';
-
+import { Route, Switch } from "react-router-dom";
 
 import HomeBar from './HomeBar'
 import Content from './Content'
 import Trump from './Trump.png'; // with import
 import Biden from './Biden.png'; // with import
-
+import Landing from './Landing';
+import AnalysisHome from "./AnalysisHome";
 
 
 const App = () => {
     document.body.style.backgroundColor = "Black";
     return (
-    <div className="App"    >
-        <Grid container direction="column">
-            <Grid item><HomeBar /></Grid>
-            <Grid item container spacing={4}>
-                <Grid item alignItems="flex-start">
-                    <img src={Biden} />
-                </Grid>
-                <Grid item xs={5}>
-                    <Content />
-                </Grid>
-                <Grid item alignItems="flex-end">
-                    <img src={Trump} />
-                </Grid>
-            </Grid>
-        </Grid>
-
-        <div align="center">>
-            <Button variant="contained" color="secondary">
-                Analysis
-            </Button>
-            <Typography>YOYOYO</Typography>
-        </div>
-
-    </div>
-
-
-  );
+        <Switch>
+            <Route exact path="/" render={(props) => <Landing {...props} />} />
+            <Route
+                exact path="/:analysishome" render={(props) => <AnalysisHome {...props} />}
+            />
+        </Switch>
+  )     ;
 };
 
 export default App;

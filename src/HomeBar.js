@@ -12,6 +12,7 @@ import Content from "./Content";
 import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
 import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
 import HomeIcon from '@material-ui/icons/Home';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 export default function ButtonAppBar() {
 
@@ -31,7 +32,9 @@ export default function ButtonAppBar() {
                                 </Typography>
                             </Grid>
                             <Grid item xs={1}>
-                                <HomeIcon fontSize="large" />
+                                <Link to="/">
+                                    <HomeIcon fontSize="large" />
+                                </Link>
                             </Grid><
                         /Grid>
                     </Grid>
