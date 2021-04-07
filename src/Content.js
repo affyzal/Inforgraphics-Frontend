@@ -7,7 +7,10 @@ import {Grid} from "@material-ui/core";
 const Content = () => {
     return(
     <div>
-        <Typography variant="h6" color="secondary">
+        <Typography variant="h3" color="primary">
+            An Analytical Perspective on the US Presidential Debates
+        </Typography>
+        <Typography variant="body" color="secondary">
             An Analytical Perspective on the US Presidential Debates
             An Analytical Perspective on the US Presidential Debates
             An Analytical Perspective on the US Presidential Debates

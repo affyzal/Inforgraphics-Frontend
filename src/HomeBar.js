@@ -36,7 +36,7 @@ export default function ButtonAppBar() {
     };
     return (
         <div>
-            <AppBar position="static" color="secondary">
+            <AppBar position="static" color="primary">
                 <Toolbar>
                     <div>
                         <IconButton
