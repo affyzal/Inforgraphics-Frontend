@@ -20,6 +20,11 @@ import Trump from './Trump.png'; // with import
 import Biden from './Biden.png'; // with import
 import Landing from './Landing';
 import AnalysisHome from "./AnalysisHome";
+import HeatMaps from "./HeatMaps";
+import Word from "./Word";
+import Sentence from "./Sentence";
+import Sentiment from "./Sentiment";
+import 'fontsource-roboto';
 
 
 const App = () => {
@@ -28,7 +33,19 @@ const App = () => {
         <Switch>
             <Route exact path="/" render={(props) => <Landing {...props} />} />
             <Route
-                exact path="/:analysishome" render={(props) => <AnalysisHome {...props} />}
+                exact path="/analysishome" render={(props) => <AnalysisHome {...props} />}
+            />
+            <Route
+                exact path="/heatmaps" render={(props) => <HeatMaps {...props} />}
+            />
+            <Route
+                exact path="/word" render={(props) => <Word {...props} />}
+            />
+            <Route
+                exact path="/sentence" render={(props) => <Sentence {...props} />}
+            />
+            <Route
+                exact path="/sentiment" render={(props) => <Sentiment {...props} />}
             />
         </Switch>
   )     ;
