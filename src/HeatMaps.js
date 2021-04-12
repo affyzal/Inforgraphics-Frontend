@@ -43,15 +43,26 @@ const HeatMaps = () => {
                         </Typography>
                     </Grid>
                     <Grid item xs>
+                        <Typography variant="h4" color="secondary" align="center">
+                            Debate 1 - HeatMap
+                        </Typography>
                         <Typography variant="body2" color="primary" component="p">
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
+                            In the given plots, the darker the colour is at a point, the more times each of the speakers started talking or rather interrupted each other.
+                            <p></p>
+                            The heat of the conversation at a given point is considered to be normal when the colour is more blue or when one speaker is speaking, the other speakers heat remains
+                            blank indicating they are not interrupting or speaking at the same time.
+                            <p></p>
+                            When looking at both HeatMaps, they both are generally the same. There are up to 3 moments in each debate where the speakers really attack each other in conversation and start
+                            firing back and forth while they each speak.
+                            <p></p>
+                            This happens in the following points and both debates follow this same trend of there being heated moments post-introduction, at the midway point of the debate
+                            and at the concluding moments of the debate.
+                            <p></p>
+                            Between these heated moments the conversation is surprisingly cool across the board in both debates again with there really being maybe 2-3 exchanges of warm moments between
+                            the actual heated moments.
+                            <p></p>
+                            So contrary to popular belief, if you go by the numbers, the debates overall actually werent that bad as far as interruptions and heat. That narrative was likely made in
+                            popular media purely based on the 3 points of contention both debates had but otherwise the debates could be considered to be cool overall.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -71,15 +82,11 @@ const HeatMaps = () => {
                         </Typography>
                     </Grid>
                     <Grid item xs>
-                        <Typography variant="body2" color="primary" component="p">
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
-                            GRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARYGRAPH COMMENTARY
+                        <Typography variant="h4" color="secondary" align="center">
+                            Debate 2 - HeatMap
+                        </Typography>
+                        <Typography variant="h5" color="primary" component="p">
+                            See HeatMap 1's commentary.
                         </Typography>
                     </Grid>
                 </Grid>
