@@ -28,6 +28,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Test from "./test.jpg";
 import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles({
     root: {
@@ -75,9 +76,11 @@ const AnalysisHome = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions align="right">
-                                <Button size="small" color="primary" >
-                                    Learn More
-                                </Button>
+                                <Link to="/sentiment">
+                                    <Button size="small" color="primary" >
+                                       Learn More
+                                    </Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -97,9 +100,11 @@ const AnalysisHome = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions align="right">
-                                <Button size="small" color="primary" >
-                                    Learn More
-                                </Button>
+                                <Link to="/sentence">
+                                    <Button size="small" color="primary" >
+                                        Learn More
+                                    </Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -123,9 +128,11 @@ const AnalysisHome = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions align="right">
-                                <Button size="small" color="primary" >
-                                    Learn More
-                                </Button>
+                                <Link to="/word">
+                                    <Button size="small" color="primary" >
+                                        Learn More
+                                    </Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -145,9 +152,11 @@ const AnalysisHome = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions align="right">
-                                <Button size="small" color="primary" >
-                                    Learn More
-                                </Button>
+                                <Link to="/heatmaps">
+                                    <Button size="small" color="primary" >
+                                        Learn More
+                                    </Button>
+                                </Link>
                             </CardActions>
                         </Card>
                     </Grid>
