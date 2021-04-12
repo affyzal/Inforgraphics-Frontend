@@ -67,9 +67,11 @@ const AnalysisHome = () => {
                                     <img src={Sent} height="150" width="350"/>
                                 </CardMedia>
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                                        Sentiment Analysis
-                                    </Typography>
+                                    <Link to="/sentiment">
+                                        <Typography gutterBottom variant="h5" component="h2" color="primary">
+                                            Sentiment Analysis
+                                        </Typography>
+                                    </Link>
                                     <Typography variant="body2" color="textPrimary" component="p">
                                         Using NLP to analyse the sentiment of the Presidential Debates.
                                     </Typography>
@@ -91,9 +93,11 @@ const AnalysisHome = () => {
                                     <img src={Sentence} height="150" width="350"/>
                                 </CardMedia>
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                                        Sentence Analysis
-                                    </Typography>
+                                    <Link to="/sentence">
+                                        <Typography gutterBottom variant="h5" component="h2" color="primary">
+                                            Sentence Analysis
+                                        </Typography>
+                                    </Link>
                                     <Typography variant="body2" color="textPrimary" component="p">
                                         Sentence level analysis of the debates.
                                     </Typography>
@@ -119,9 +123,11 @@ const AnalysisHome = () => {
                                     <img src={Word} height="160" width="350"/>
                                 </CardMedia>
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                                        Word Analysis
-                                    </Typography>
+                                    <Link to="/word">
+                                        <Typography gutterBottom variant="h5" component="h2" color="primary">
+                                            Word Analysis
+                                        </Typography>
+                                    </Link>
                                     <Typography variant="body2" color="textPrimary" component="p">
                                         Word level analysis of the debates.
                                     </Typography>
@@ -143,9 +149,11 @@ const AnalysisHome = () => {
                                     <img src={Heat} height="160" width="350"/>
                                 </CardMedia>
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" color="primary">
-                                        Heatmaps
-                                    </Typography>
+                                    <Link to="/heatmaps">
+                                        <Typography gutterBottom variant="h5" component="h2" color="primary">
+                                            Heatmaps
+                                        </Typography>
+                                    </Link>
                                     <Typography variant="body2" color="textPrimary" component="p">
                                         Visualising the Heat of the debates with Heat Map.
                                     </Typography>
