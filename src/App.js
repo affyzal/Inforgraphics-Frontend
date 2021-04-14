@@ -25,10 +25,9 @@ import Word from "./Word";
 import Sentence from "./Sentence";
 import Sentiment from "./Sentiment";
 import 'fontsource-roboto';
-
+import Test from "./graphtest"
 
 const App = () => {
-    document.body.style.backgroundColor = "Black";
     return (
         <Switch>
             <Route exact path="/" render={(props) => <Landing {...props} />} />
@@ -46,6 +45,9 @@ const App = () => {
             />
             <Route
                 exact path="/sentiment" render={(props) => <Sentiment {...props} />}
+            />
+            <Route
+                exact path="/test" render={(props) => <Test {...props} />}
             />
         </Switch>
   )     ;

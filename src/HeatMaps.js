@@ -26,7 +26,7 @@ import HeatMap2 from './img/Debate2HeatMap.png'
 
 
 const HeatMaps = () => {
-    document.body.style.backgroundColor = "Black";
+    document.body.style.backgroundColor = "White";
     return (
         <div>
             <div>
@@ -61,7 +61,7 @@ const HeatMaps = () => {
                             Between these heated moments the conversation is surprisingly cool across the board in both debates again with there really being maybe 2-3 exchanges of warm moments between
                             the actual heated moments.
                             <p></p>
-                            So contrary to popular belief, if you go by the numbers, the debates overall actually werent that bad as far as interruptions and heat. That narrative was likely made in
+                            So contrary to popular belief, if you go by the numbers, the debates overall actually weren't that bad as far as interruptions and heat. That narrative was likely made in
                             popular media purely based on the 3 points of contention both debates had but otherwise the debates could be considered to be cool overall.
                         </Typography>
                     </Grid>

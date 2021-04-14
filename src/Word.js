@@ -29,7 +29,8 @@ import TrumpWFreq2 from "./img/Debate 2 - Trump Word Frequency.png";
 
 
 const Word = () => {
-    document.body.style.backgroundColor = "Black";
+    document.body.style.backgroundColor = "White";
+
     return (
         <div>
             <div>
@@ -39,12 +40,15 @@ const Word = () => {
                 <Typography variant="h3" color="secondary" align="center">
                     Word Analysis of the Debates
                 </Typography>
-                <Typography variant="body1" color="secondary" align="center">
-                    Word Analysis of the Debates Word Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the Debates
-                    Word Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the Debates
-                    Word Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the Debates
-                    Word Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the Debates
-                    vWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the DebatesWord Analysis of the Debates
+                <Typography variant="body1" color="primary" align="center">
+                    At the word level, there arent too many observations which can be made other than which words each candidate preferred to use naturally in conversation.
+                    <p></p>
+                    As far as clear
+                    conclusions that can be made, it seems Trump is more likely to speak directly to his opposer with more uses of 'you', whereas Biden seems to talk more to the mediator than Trump
+                    having more uses of 'he'(referring to Trump).
+                    <p></p>
+                    By in large both candidates uses the same words just differently. Biden is more varied than Trump in his words usage tending to use words
+                    more broadly than Trump
                 </Typography>
                 <Grid container direction="row" justify="space-around" alignItems="flex-start" spacing={0} padding={0}>
                     <Grid item xs>

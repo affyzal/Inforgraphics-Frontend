@@ -28,7 +28,7 @@ import SentimentOverall from './img/Sentiment.png'
 
 
 const Sentiment = () => {
-    document.body.style.backgroundColor = "Black";
+    document.body.style.backgroundColor = "White";
     return (
         <div>
             <div>
@@ -66,7 +66,7 @@ const Sentiment = () => {
                     </Grid>
                 </Grid>
                 <div align="center">
-                    <Link to="/">
+                    <Link to="/test">
                         <Button variant="contained" color="secondary">
                             A Closer Look Into the Graph
                         </Button>
@@ -98,7 +98,7 @@ const Sentiment = () => {
                     </Grid>
                 </Grid>
                 <div align="center">
-                    <Link to="/">
+                    <Link to="/test">
                         <Button variant="contained" color="secondary">
                             A Closer Look Into the Graph
                         </Button>
@@ -128,7 +128,7 @@ const Sentiment = () => {
                     </Grid>
                 </Grid>
                 <div align="center">
-                    <Link to="/">
+                    <Link to="/test">
                         <Button variant="contained" color="secondary">
                             A Closer Look Into the Graph
                         </Button>
