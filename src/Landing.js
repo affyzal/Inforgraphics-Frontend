@@ -29,6 +29,7 @@ const Landing = () => {
         <div className="Landing"    >
             <Grid container direction="column">
                 <Grid item><HomeBar /></Grid>
+                <p></p>
                 <Grid item container spacing={4}>
                     <Grid item alignItems="flex-start">
                         <img src={Biden} />
