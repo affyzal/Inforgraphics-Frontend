@@ -64,13 +64,6 @@ const Sentence = () => {
                     </Typography>
                 </Grid>
             </Grid>
-            <div align="center">
-                <Link to="/test">
-                    <Button variant="contained" color="secondary">
-                        A Closer Look Into the Graph
-                    </Button>
-                </Link>
-            </div>
             <p></p>
             <p></p>
             <Grid container direction="row" justify="space-around" alignItems="flex-start" spacing={0} padding={0}>
@@ -97,13 +90,6 @@ const Sentence = () => {
                     </Typography>
                 </Grid>
             </Grid>
-            <div align="center">
-                <Link to="/test">
-                    <Button variant="contained" color="secondary">
-                        A Closer Look Into the Graph
-                    </Button>
-                </Link>
-            </div>
             <p></p>
             <p></p>
         </div>

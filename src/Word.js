@@ -62,32 +62,8 @@ const Word = () => {
                         </Typography>
                     </Grid>
                 </Grid>
-                <div align="center" spacing={3}>
-                    <Link to="/">
-                        <Button variant="contained" color="secondary">
-                            Debate 1 - Biden Word Frequency
-                        </Button>
-                    </Link>
-                    <Link to="/">
-                        <Button variant="contained" color="secondary">
-                            Debate 2 - Biden Word Frequency
-                        </Button>
-                    </Link>
-                </div>
                 <p></p>
                 <p></p>
-                <div align="center" spacing={3}>
-                    <Link to="/">
-                        <Button variant="contained" color="secondary">
-                            Debate 1 - Trump Word Frequency
-                        </Button>
-                    </Link>
-                    <Link to="/">
-                        <Button variant="contained" color="secondary">
-                            Debate 2 - Trump Word Frequency
-                        </Button>
-                    </Link>
-                </div>
                 <p></p>
                 <p></p>
                 <Grid container direction="row" justify="space-around" alignItems="flex-start" spacing={0} padding={0}>
